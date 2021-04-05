@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.heading{
+    font-size: 4em;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 50%;
+}
+.question{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.answer{
+    background-color: #ebe9e4;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #787774;
+    border-radius: 5px;
+    width: 80%;
+    cursor: pointer;
+}

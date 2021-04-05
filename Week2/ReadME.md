@@ -1,8 +1,8 @@
 # Week 2
 
-Performing configuration via Webpack.
+- Performing configuration via Webpack.
 
-We will be writing tests.
+- We will be writing tests.
 
 
 package.json config
@@ -37,23 +37,44 @@ Install işlemleri için
     
   },
   
+  
   "engines": {
+  
     "node": "^14.0.0"
+    
   },
+  
   "babel": {
+  
     "presets": [
+    
       "@babel/env"
+      
     ]
+    
   },
+  
   "scripts": {
+  
     "dev": "webpack serve --open --mode development",
+    
     "build": "webpack --mode production",
+    
     "test": "jest --coverage"
+    
   },
+  
   "jest": {
+  
     "collectCoverageFrom": [
+    
       "src/**/*.(js|jsx)"
+      
     ],
+    
     "testRegex": "tests/.*-test\\.(js|jsx)"
+    
   }
+  
 }
+

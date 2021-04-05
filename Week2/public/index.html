@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Quiz</title>
@@ -8,16 +7,15 @@
 <body>
 <div class="container">
     <h1 class="heading">Quiz</h1>
-    <div class="main-content">
-        <p class="question">Aşakğıdakilerden hangisi 2020 yılında Oscar kazanmıştır?</p>
+    <div class="main-content" id="quizDivId">
+        <p class="question">Soru: Aşağıdakilerden hangisi 2020 yılında Oscar kazanmıştır?</p>
         <div class="answer" onclick="alert('Yanlış cevap')">A: Jojo Rabbit</div>
         <div class="answer" onclick="alert('Yanlış cevap')">B: Joker</div>
         <div class="answer" onclick="alert('Doğru cevap')">C: Parasite</div>
-        <div class="answer" onclick="alert('Yanlış cevap')">D: 19997</div>
-        <!--tab tuşuna basıp istediğimiz satırları seçerek aynı anda aynı şeyi yazabiliyoruz -->
+        <div class="answer" onclick="alert('Yanlış cevap')">D: 1917</div>
     </div>
 </div>
-<script src="script.js"></script>
-<script>newQuiz()</script>
+<script src="bundle.js"></script>
+<script>Quiz.newQuiz()</script>
 </body>
 </html>

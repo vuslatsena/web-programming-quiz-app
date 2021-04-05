@@ -1,2 +1,5 @@
-Bu haftada webpack üzerinden configürasyon işlemlerini gerçekleştirdik.
-Buna aynı zamanda test yazıyor olacağız.
+# Week 2
+
+Performing configuration via Webpack.
+
+We will be writing tests.

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1617654627742" clover="3.2.0">
+  <project timestamp="1617654627743" name="All files">
+    <metrics statements="30" coveredstatements="27" conditionals="10" coveredconditionals="10" methods="9" coveredmethods="8" elements="49" coveredelements="45" complexity="0" loc="30" ncloc="30" packages="1" files="3" classes="3"/>
+    <file name="index.jsx" path="E:\Documents\GithubRepos\web-programming-quiz-app\Week 4\quiz\src\index.jsx">
+      <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="6" count="0" type="stmt"/>
+      <line num="7" count="0" type="stmt"/>
+      <line num="12" count="0" type="stmt"/>
+    </file>
+    <file name="match.jsx" path="E:\Documents\GithubRepos\web-programming-quiz-app\Week 4\quiz\src\match.jsx">
+      <metrics statements="12" coveredstatements="12" conditionals="4" coveredconditionals="4" methods="6" coveredmethods="6"/>
+      <line num="7" count="23" type="stmt"/>
+      <line num="8" count="23" type="stmt"/>
+      <line num="14" count="11" type="cond" truecount="2" falsecount="0"/>
+      <line num="15" count="2" type="stmt"/>
+      <line num="19" count="23" type="stmt"/>
+      <line num="20" count="21" type="cond" truecount="2" falsecount="0"/>
+      <line num="21" count="9" type="stmt"/>
+      <line num="22" count="9" type="stmt"/>
+      <line num="26" count="12" type="stmt"/>
+      <line num="31" count="136" type="stmt"/>
+      <line num="35" count="34" type="stmt"/>
+      <line num="36" count="34" type="stmt"/>
+    </file>
+    <file name="quiz.js" path="E:\Documents\GithubRepos\web-programming-quiz-app\Week 4\quiz\src\quiz.js">
+      <metrics statements="15" coveredstatements="15" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+      <line num="1" count="2" type="stmt"/>
+      <line num="54" count="2" type="stmt"/>
+      <line num="55" count="1038" type="cond" truecount="2" falsecount="0"/>
+      <line num="56" count="2" type="stmt"/>
+      <line num="58" count="1036" type="cond" truecount="2" falsecount="0"/>
+      <line num="59" count="1" type="stmt"/>
+      <line num="62" count="1035" type="stmt"/>
+      <line num="64" count="1035" type="stmt"/>
+      <line num="65" count="1035" type="stmt"/>
+      <line num="66" count="2264" type="stmt"/>
+      <line num="67" count="2264" type="cond" truecount="2" falsecount="0"/>
+      <line num="68" count="229" type="stmt"/>
+      <line num="70" count="2035" type="stmt"/>
+      <line num="71" count="2035" type="stmt"/>
+      <line num="73" count="2035" type="stmt"/>
+    </file>
+  </project>
+</coverage>

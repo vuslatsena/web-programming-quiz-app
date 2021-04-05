@@ -1,3 +1,4 @@
+//Server üzerinde çalıştığı için const olarak yazdık.React'ı içeri almış olduk.
 const React = require('react');
 const { mount } = require('enzyme');
 const {Match}  = require('../src/match');
@@ -6,7 +7,9 @@ const checkQuizIsDisplayed = (driver) =>{
     const questions = driver.find('.question');
     expect(questions.length).toEqual(1);
 }
-
+//test yazıp ismini veriyoruz.
+//driver ile HTML'i gömüyoruz(mount(componentadı))
+//Hangi componenti test edeceksek o şekilde ilerliyoruz.
 test("test oluşturuldu",()=>{
     const driver = mount(<Match/>);
     checkQuizIsDisplayed(driver);
@@ -14,7 +17,6 @@ test("test oluşturuldu",()=>{
 
 test("cevap ver testi", () => {
     const driver = mount(<Match/>);
-
 
     let msg = undefined;
 

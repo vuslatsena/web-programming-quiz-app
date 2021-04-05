@@ -8,6 +8,8 @@ class Container extends Component {
     }
     containerIncrease = () => {
         this.setState(prev=>({containerCounter: prev.containerCounter+1}))
+         //state değerini değiştirmek için this.State
+        //önceki state'in durumunu alıp arttırmak için kullanıyoruz.
     }
     containerDecrease = () => {
 
@@ -32,7 +34,6 @@ class Container extends Component {
                                          containerIncrease={this.containerIncrease}
                                          containerDecrease={this.containerDecrease}
                         />
-
                     )
                 }
                  </div>

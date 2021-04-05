@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {getRandomQuizzes} from "./quizzes";
+import {getRandomQuizzes} from "./quiz";
 
 export class Match extends React.Component {
     constructor(props) {

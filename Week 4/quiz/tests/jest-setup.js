@@ -2,7 +2,6 @@ const {configure } = require('enzyme');
 const jsdom = require('jsdom');
 const Adapter = require('@wojtekmaj/enzyme-adapter-react-17');
 
-
 /*
     Enzyme kütüphanesini Jest ile birlikte kullanabilmek için bu isimli böyle bir
     dosyaya ihtiyaç bulunmaktadır.
@@ -24,7 +23,7 @@ export function setUpDomEnvironment(url) {
 
     configure({ adapter: new Adapter() });
 }
-
+//boş HTML dosyası oluşturuyor ve component gömmüş oluyoruz
 function copyProps(src, target) {
     const props = Object.getOwnPropertyNames(src)
         .filter((prop) => typeof target[prop] === 'undefined')

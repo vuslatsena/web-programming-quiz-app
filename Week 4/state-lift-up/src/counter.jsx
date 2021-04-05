@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
-
+//Container içerisindeki sayacı nasıl değiştirebiliriz onu inceliyoruz.
 class Counter extends Component {
-
     state = {
         value: 0
     };

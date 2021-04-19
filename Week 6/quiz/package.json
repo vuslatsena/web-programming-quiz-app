@@ -1,6 +1,6 @@
 {
-  "author": "Vuslat Sena",
-  "name": "week5",
+  "author": "Vuslat Sena Emre",
+  "name": "ders06",
   "version": "1.0.0",
   "main": "src/client/index.jsx",
   "license": "MIT",
@@ -9,7 +9,14 @@
       "@babel/plugin-proposal-class-properties"
     ],
     "presets": [
-      "@babel/env",
+      [
+        "@babel/env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ],
       "@babel/react"
     ]
   },
@@ -55,6 +62,7 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router": "^5.2.0",
-    "react-router-dom": "^5.2.0"
+    "react-router-dom": "^5.2.0",
+    "unescape": "^1.0.1"
   }
 }

@@ -7,7 +7,6 @@ sleep = (ms) => {
         Promise oluşturabilmek için girdi olarak bir fonksiyon vermek gerekmektedir.
         Bu fonksiyon resolve ve reject olmak üzere iki girdiye sahiptir.
         Promise başarı ile tamamlanırsa resolve() fonksiyonu, başarısız olursa reject() fonksiyonu çağırılır.
-
     */
     return new Promise(((resolve, reject) => setTimeout(resolve,ms)));
 }

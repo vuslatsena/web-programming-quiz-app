@@ -1,4 +1,4 @@
-import {getRandomQuizzes} from "../src/client/quizzes";
+import {getRandomQuizzes} from "../src/client/quiz";
 
 test('geçersiz quizler',()=>{
     expect(()=>{getRandomQuizzes(-1)}).toThrow();

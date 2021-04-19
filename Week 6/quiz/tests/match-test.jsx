@@ -1,5 +1,5 @@
 const React = require('react');
-const {quizzes} = require("../src/client/quizzes");
+const {quizzes} = require("../src/client/quiz");
 const { mount } = require('enzyme');
 const {Match}  = require('../src/client/match');
 
